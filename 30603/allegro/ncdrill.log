@@ -1,0 +1,59 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaaf08532.tmp                             )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Tue Mar 12 10:28:45 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		4.3
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		NO
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	NO
+ SCALE			1.000000
+
+ WARNING(SPMHMF-358): Design precision is the same as that of the drill output file data.
+ WARNING(SPMHMF-359): Data rounding errors may still be possible.
+
+
+ Drill files being output to directory 'C:/30603/allegro' ...
+
+
+
+     'ASTABLE-MV-1-2.drl' created for holes connecting TOP and BOTTOM
+     ----------------------------------------------------------------
+
+           Num     Size      +/- Tolerance     Plating   Quantity
+
+            1.   0.6350    0.0000/  0.0000      PLATED         12
+            2.   0.9140    0.0000/  0.0000      PLATED         14
+            3.   1.0670    0.0000/  0.0000      PLATED         16
+            4.   3.1750    0.0000/  0.0000  NON_PLATED          4
+
+     ---- Total holes:                                         46
+
+     ---- Total head travel:              3.44 feet (1.05 meters)
+

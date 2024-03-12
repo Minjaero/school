@@ -1,0 +1,89 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : ASTABLE-MV.brd                                )
+(    Software Version : 16.6B033                                      )
+(    Date/Time        : Tue Mar 12 09:20:45 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:\30603\allegro';
+BOARD_DIRECTORY '';
+OLD_BOARD_NAME 'C:/30603/allegro/ASTABLE-MV.brd';
+NEW_BOARD_NAME 'C:/30603/allegro/ASTABLE-MV.brd';
+
+CmdLine: netrev.exe -y 1 -n -i C:\30603\allegro C:\30603\allegro\ASTABLE-MV.brd C:\30603\allegro\ASTABLE-MV.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/30603/allegro/pstchip.dat 
+   Finished reading C:/30603/allegro/pstchip.dat (00:00:00.05)
+Starting to read C:/30603/allegro/pstxprt.dat 
+   Finished reading C:/30603/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/30603/allegro/pstxnet.dat 
+   Finished reading C:/30603/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_16.6/share/local/pcb/symbols 
+           c:/cadence/spb_16.6/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_16.6/share/local/pcb/padstacks 
+           c:/cadence/spb_16.6/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 12 9:20:45 2024
+   DESIGN NAME : 'ASTABLE-MV'
+   PACKAGING ON Sep  3 2012 03:32:19
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:34:10
+elapsed time  0:00:00
+

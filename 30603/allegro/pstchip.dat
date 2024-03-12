@@ -1,0 +1,96 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Mar-12-2024 at 09:20:25}
+primitive 'BATTERY_JUMPER2_+9V';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BATTERY';
+    JEDEC_TYPE='JUMPER2';
+    VALUE='+9V';
+  end_body;
+end_primitive;
+primitive 'CAP POL_CAP196_33UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='CAP196';
+    VALUE='33uF';
+  end_body;
+end_primitive;
+primitive 'LED_CAP196_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='CAP196';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'NPN ECB_TO92_2SC1815';
+  pin
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN ECB';
+    JEDEC_TYPE='TO92';
+    VALUE='2SC1815';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_RES400_470';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='RES400';
+    VALUE='470';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_RES400_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='RES400';
+    VALUE='1k';
+  end_body;
+end_primitive;
+END.

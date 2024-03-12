@@ -1,0 +1,200 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Mar-12-2024 at 09:17:42 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='ASTABLE-MV';
+ POST_TIME='Sep  3 2012 03:32:19';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BT1 'BATTERY_JUMPER2_+9V':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS319@DISCRETE.BATTERY.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins319@discrete.\battery.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins319@discrete.\battery.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP POL_CAP196_33UF':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS344@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins344@discrete.\cap pol.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins344@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP POL_CAP196_33UF':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS360@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins360@discrete.\cap pol.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins360@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED1 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS246@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins246@discrete.\led.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins246@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED2 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS262@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins262@discrete.\led.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins262@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED3 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS278@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins278@discrete.\led.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins278@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LED4 'LED_CAP196_LED':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS294@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins294@discrete.\led.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins294@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'NPN ECB_TO92_2SC1815':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS165@TRANSISTOR.NPN ECB.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins165@transistor.\npn ecb.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins165@transistor.\npn ecb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q2 'NPN ECB_TO92_2SC1815':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS183@TRANSISTOR.NPN ECB.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins183@transistor.\npn ecb.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins183@transistor.\npn ecb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q3 'NPN ECB_TO92_2SC1815':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS201@TRANSISTOR.NPN ECB.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins201@transistor.\npn ecb.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins201@transistor.\npn ecb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q4 'NPN ECB_TO92_2SC1815':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS219@TRANSISTOR.NPN ECB.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins219@transistor.\npn ecb.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins219@transistor.\npn ecb.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_RES400_470':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS26@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins26@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins26@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_RES400_470':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS42@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins42@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins42@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_RES400_470':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS58@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins58@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins58@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_RES400_470':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS74@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins74@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins74@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR_RES400_470':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS90@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins90@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins90@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR_RES400_470':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS106@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins106@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins106@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS122@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins122@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins122@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_RES400_1K':;
+
+SECTION_NUMBER 1
+ '@ASTABLE-MV.SCHEMATIC1(SCH_1):INS138@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@\astable-mv\.schematic1(sch_1):ins138@discrete.\resistor.normal\(chips)',
+ P_PATH='@\astable-mv\.schematic1(sch_1):page1_ins138@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
